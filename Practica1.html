@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+    <form method="post" action="#" >
+
+        
+              
+            <label for="usur"> Usurname: </label> <br>
+            <input type="text" name="Usurname" id="usur" > <br>
+    
+            <label for="password"> Passworf: </label> <br>
+            <input type="password" name="contra" id="password" required > <br>
+    
+            <label for="city"> City of Employment: </label> <br>
+            <input type="text" name="cityemployment" id="city" required > <br>
+
+            <label for="server">Web Server</label>
+            <select name="webserver" id="server">
+                <option value="">-Choose a server-</option>
+                <option value="Lan">Latinonamerica Norte</option>
+                <option value="EU">Europa</option>
+                <option value="LAS">Latinoamerica Sur</option>
+            </select> <br>
+
+
+           
+            <label> Please specify your role: </label> <br>
+            <input type="radio" name="rol" value="admin" id="admin">
+            <label for="admin">Admin</label> <br>
+    
+            <input type="radio" name="rol" value="Engineer" id="engineer">
+            <label for="engineer">Engineer</label> <br>
+    
+            <input type="radio" name="rol" value="Manager" id="manager">
+            <label for="manager">Manager</label> <br>
+
+            <input type="radio" name="rol" value="Guest" id="guest">
+            <label for="guest">Guest</label> <br>
+
+              
+
+        
+        <label>Single Sing-On to the following</label> <br>
+        <input type="checkbox" name="following" value="Mail" id="mail" >  
+        <label for="mail">Mail</label> <br>
+        <input type="checkbox" name="following" value="Payroll" id="pay" >  
+        <label for="pay">Payroll</label> <br>
+        <input type="checkbox" name="following" value="Self-Service" id="self" > 
+        <label for="self">Self-Service</label> <br>
+
+
+        <input type="submit" name="enviarboton" value="Login"> 
+        <input type="reset" name="resetboton" value="reset" >
+       
+
+    </form>
+</body>
+</html>
